@@ -1,11 +1,11 @@
 import './ArticleCard.css'
 import newsPaper from '../../Images/newspaper.png'
 
-const ArticleCard = () => {
+const ArticleCard = ({ title }) => {
     return (
         <div className='newspaper-and-title-container'>
             <img src={newsPaper} className='newspaper-img' />
-            <h2>Some Biden Missle Fight Thingy whatever</h2>
+            <h2>{title}</h2>
         </div>
     )
 }

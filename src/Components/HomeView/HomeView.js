@@ -1,12 +1,20 @@
 import './HomeView.css'
 import ArticleCard from '../ArticleCard/ArticleCard'
 
-const HomeView = () => {
+const HomeView = ({ newsData }) => {
+    console.log("here ya go boss: ", newsData)
+
+    const articleCards = newsData.map(story => {
+        return(
+            <ArticleCard title={story.title}/>
+        )
+    })
+
     return (
         <div className='home-container'>
             <h1>NY Times News</h1>
-            <section class="dropdown-and-go">
-                <select class="dropdown-menu" name="section-types">
+            <section className="dropdown-and-go">
+                <select className="dropdown-menu" name="section-types">
                     <option value="select section">Select section</option>
                     <option value="arts">arts</option>
                     <option value="automobiles">automobiles</option>
@@ -23,12 +31,10 @@ const HomeView = () => {
                     <option value="travel">travel</option>
                     <option value="world">world</option>
                 </select>
-                <button class="go-button">Go</button>
+                <button className="go-button">Go</button>
             </section>
             <div className='article-card-container'>
-                {<ArticleCard/>}
-                {<ArticleCard/>}
-                {<ArticleCard/>}
+                {articleCards}
             </div>
         </div>
     )
