@@ -1,4 +1,5 @@
 import './HomeView.css'
+import ArticleCard from '../ArticleCard/ArticleCard'
 
 const HomeView = () => {
     return (
@@ -25,6 +26,9 @@ const HomeView = () => {
                 <button class="go-button">Go</button>
             </section>
             <div className='article-card-container'>
+                {<ArticleCard/>}
+                {<ArticleCard/>}
+                {<ArticleCard/>}
             </div>
         </div>
     )
