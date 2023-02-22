@@ -2,6 +2,7 @@ import './App.css'
 import { Route, Routes, Switch } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import HomeView from '../HomeView/HomeView'
+import DetailView from '../DetailView/DetailView'
 
 function App() {
   const [newsData, setNewsData] = useState([])
@@ -21,7 +22,10 @@ function App() {
 
   return (
     <div className='App'>
-      {<HomeView newsData={newsData} />}
+      <Switch>
+        <Route exact path='/' render={() => <HomeView newsData={newsData}/> }/>
+        <Route exact path='/test' render={() => <DetailView />} />
+      </Switch>
     </div>
   )
 }

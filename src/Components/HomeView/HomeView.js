@@ -6,7 +6,7 @@ const HomeView = ({ newsData }) => {
 
     const articleCards = newsData.map(story => {
         return(
-            <ArticleCard title={story.title}/>
+            <ArticleCard title={story.title} key={story.created_date}/>
         )
     })
 
@@ -15,7 +15,7 @@ const HomeView = ({ newsData }) => {
             <h1>NY Times News</h1>
             <section className="dropdown-and-go">
                 <select className="dropdown-menu" name="section-types">
-                    <option value="select section">Select section</option>
+                    <option value="select section">(Select section)</option>
                     <option value="arts">arts</option>
                     <option value="automobiles">automobiles</option>
                     <option value="books">books</option>
