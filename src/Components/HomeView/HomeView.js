@@ -1,10 +1,11 @@
 import './HomeView.css'
 import ArticleCard from '../ArticleCard/ArticleCard'
 
-const HomeView = ({ newsData }) => {
+const HomeView = ({ newsData, setArticle }) => {
+    console.log("hi: ", newsData)
     const articleCards = newsData.map(story => {
         return (
-            <ArticleCard title={story.title} key={story.created_date} />
+            <ArticleCard title={story.title} key={story.created_date} setArticle={setArticle}/>
         )
     })
 

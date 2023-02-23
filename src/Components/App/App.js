@@ -6,6 +6,7 @@ import DetailView from '../DetailView/DetailView'
 
 function App() {
   const [newsData, setNewsData] = useState([])
+  const [currentArticle, setCurrentArticle] = useState({})
 
   const getData = () => {
     fetch('https://api.nytimes.com/svc/topstories/v2/home.json?api-key=hJ0FcCaJDYmhdMWUGZW8WtEDnv3AGhsy')
@@ -16,6 +17,14 @@ function App() {
       })
   }
 
+  const setArticle = (selectedTitle) => {
+    console.log("yee yee")
+    const findArticle = newsData.find(article => {
+      return article.title === selectedTitle
+    })
+    setCurrentArticle(findArticle)
+  }
+
   useEffect(() => {
     getData()
   }, [])
@@ -23,8 +32,8 @@ function App() {
   return (
     <div className='App'>
       <Switch>
-        <Route exact path='/' render={() => <HomeView newsData={newsData}/> }/>
-        <Route exact path='/article/:name' render={() => <DetailView />} />
+        <Route exact path='/' render={() => <HomeView newsData={newsData} setArticle={setArticle}/> }/>
+        <Route exact path='/article/:name' render={() => <DetailView currentArticle={currentArticle}/>} />
       </Switch>
     </div>
   )
