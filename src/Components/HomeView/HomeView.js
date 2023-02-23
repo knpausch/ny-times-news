@@ -66,7 +66,7 @@ const HomeView = ({ newsData, setArticle }) => {
                 <button className='reset-button' onClick={() => resetArticles()}>Reset</button>
             </section>
             <div className='article-card-container'>
-                {articleCards}
+                {articleCards.length ? articleCards : <h2>No Articles Found</h2>}
             </div>
         </div>
     )
