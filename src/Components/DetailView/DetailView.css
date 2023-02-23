@@ -20,3 +20,28 @@
 .home-button{
     cursor: pointer;
 }
+
+.article-image{
+    height: 25vw;
+    border-radius: 5%;
+}
+
+.article-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.date-and-author-container, .section-and-url-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.date-and-author-text, .section-text{
+    font-size: 18px;
+}
