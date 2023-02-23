@@ -36,9 +36,9 @@ GitHub Projects
   ```
 
 ## Preview
+![Screen Recording 2023-02-23 at 3 50 59 PM](https://user-images.githubusercontent.com/19957834/221048980-32823dca-1622-44ca-bed0-4408400cf5d1.gif)
 
 ## Planning Process
-
 
 ### Component Map and User Flow
 ![NY Times News](https://user-images.githubusercontent.com/19957834/221047928-5ae8c167-b74c-4851-8003-3da354f51326.jpg)
@@ -63,13 +63,12 @@ GitHub Projects
 
 
 ## Future Extensions
-- Incoporate pagination for a seemless page load on the Search View
-- Implement creating a user account and uploading a profile picture
-- Adding a social feature to send friend requests
-- Allow the database and app to include film titles 
+- Improve styling
+- Incorporate accessibility for readability and keyboard naviagation
 
 ## Feedback Reflection
-
+- "Speak more your decisions/opinions - for example, the visual design and the component architecture". I apprecaite this feedback and will incorporate diving deeper in my decision making process with more details. 
+- "Speak to the specific line number". This is a great piece of feedback I recieved. I will start refering to line numbers instead of pointing with my mouse when I am presenting my code on screenshare. 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
