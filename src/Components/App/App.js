@@ -18,7 +18,7 @@ function App() {
   }
 
   const setArticle = (selectedTitle) => {
-    console.log("yee yee")
+    // console.log("yee yee")
     const findArticle = newsData.find(article => {
       return article.title === selectedTitle
     })

@@ -1,19 +1,26 @@
 import './HomeView.css'
 import ArticleCard from '../ArticleCard/ArticleCard'
+import { useState } from 'react'
 
 const HomeView = ({ newsData, setArticle }) => {
-    console.log("hi: ", newsData)
+    const [newsSection, setNewsSection] = useState("")
+    // console.log("hi: ", newsData)
     const articleCards = newsData.map(story => {
         return (
-            <ArticleCard title={story.title} key={story.created_date} setArticle={setArticle}/>
+            <ArticleCard title={story.title} key={story.created_date} setArticle={setArticle} />
         )
     })
+
+    const handleChange = (event) => {
+        setNewsSection(event.target.value)
+        return
+    }
 
     return (
         <div className='home-container'>
             <h1>NY Times News</h1>
             <section className="dropdown-and-go">
-                <select className="dropdown-menu" name="section-types">
+                <select className="dropdown-menu" name="section-types" onChange={event => handleChange(event)}>
                     <option value="select section">(Select section)</option>
                     <option value="arts">arts</option>
                     <option value="automobiles">automobiles</option>
