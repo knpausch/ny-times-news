@@ -24,7 +24,7 @@ function App() {
     <div className='App'>
       <Switch>
         <Route exact path='/' render={() => <HomeView newsData={newsData}/> }/>
-        <Route exact path='/test' render={() => <DetailView />} />
+        <Route exact path='/article/:name' render={() => <DetailView />} />
       </Switch>
     </div>
   )
