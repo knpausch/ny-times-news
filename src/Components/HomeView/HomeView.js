@@ -4,14 +4,13 @@ import { useEffect, useState } from 'react'
 
 const HomeView = ({ newsData, setArticle }) => {
     const [newsSection, setNewsSection] = useState("")
-    const [filteredArticles, setFilteredArticles] = useState([])
-    console.log("hi: ", newsData)
+    const [listOfArticles, setListOfArticles] = useState([])
 
     useEffect(() => {
-        setFilteredArticles(newsData)
+        setListOfArticles(newsData)
     }, [newsData])
 
-    const articleCards = newsData.map(story => {
+    const articleCards = listOfArticles.map(story => {
         return (
             <ArticleCard title={story.title} key={story.created_date} setArticle={setArticle} />
         )
@@ -26,7 +25,11 @@ const HomeView = ({ newsData, setArticle }) => {
         const filteredList = newsData.filter(article => {
             return article.section === newsSection
         })
-        setFilteredArticles(filteredList)
+        setListOfArticles(filteredList)
+    }
+
+    const resetArticles = () => {
+        setListOfArticles(newsData)
     }
 
     return (
@@ -60,6 +63,7 @@ const HomeView = ({ newsData, setArticle }) => {
                     <option value="world">world</option>
                 </select>
                 <button className="go-button" onClick={() => filterArticles()}>Go</button>
+                <button className="reset-button" onClick={() => resetArticles()}>Reset</button>
             </section>
             <div className='article-card-container'>
                 {articleCards}
