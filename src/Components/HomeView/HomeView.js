@@ -19,15 +19,24 @@ const HomeView = ({ newsData, setArticle }) => {
                     <option value="automobiles">automobiles</option>
                     <option value="books">books</option>
                     <option value="business">business</option>
+                    <option value="climate">climate</option>
                     <option value="fashion">fashion</option>
                     <option value="food">food</option>
                     <option value="health">health</option>
                     <option value="home">home</option>
+                    <option value="insider">insider</option>
+                    <option value="magazine">magazine</option>
                     <option value="movies">movies</option>
+                    <option value="opinion">opinion</option>
+                    <option value="politics">politics</option>
+                    <option value="podcasts">podcasts</option>
+                    <option value="realestate">realestate</option>
                     <option value="science">science</option>
                     <option value="sports">sports</option>
                     <option value="technology">technology</option>
+                    <option value="theater">theater</option>
                     <option value="travel">travel</option>
+                    <option value="us">us</option>
                     <option value="world">world</option>
                 </select>
                 <button className="go-button">Go</button>
