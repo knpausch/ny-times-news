@@ -1,10 +1,16 @@
 import './HomeView.css'
 import ArticleCard from '../ArticleCard/ArticleCard'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 const HomeView = ({ newsData, setArticle }) => {
     const [newsSection, setNewsSection] = useState("")
-    // console.log("hi: ", newsData)
+    const [filteredArticles, setFilteredArticles] = useState([])
+    console.log("hi: ", newsData)
+
+    useEffect(() => {
+        setFilteredArticles(newsData)
+    }, [newsData])
+
     const articleCards = newsData.map(story => {
         return (
             <ArticleCard title={story.title} key={story.created_date} setArticle={setArticle} />
@@ -14,6 +20,13 @@ const HomeView = ({ newsData, setArticle }) => {
     const handleChange = (event) => {
         setNewsSection(event.target.value)
         return
+    }
+
+    const filterArticles = () => {
+        const filteredList = newsData.filter(article => {
+            return article.section === newsSection
+        })
+        setFilteredArticles(filteredList)
     }
 
     return (
@@ -46,7 +59,7 @@ const HomeView = ({ newsData, setArticle }) => {
                     <option value="us">us</option>
                     <option value="world">world</option>
                 </select>
-                <button className="go-button">Go</button>
+                <button className="go-button" onClick={() => filterArticles()}>Go</button>
             </section>
             <div className='article-card-container'>
                 {articleCards}
