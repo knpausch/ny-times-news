@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+![Screenshot 2023-02-23 at 3 39 26 PM](https://user-images.githubusercontent.com/19957834/221046932-9d427b03-6550-4ebb-bea8-2a9370c94615.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Contributor
+- Keyaanna (Kiko) Pausch [GitHub](https://github.com/knpausch) | [LinkedIn](https://www.linkedin.com/in/knpausch/)
 
-## Available Scripts
+## About The Project
 
-In the project directory, you can run:
+NY Times News is a news app that captures the top trending stories from an [NY Times API](https://developer.nytimes.com/docs/top-stories-product/1/overview) and allows you to filter by section and view each story's detail with a simplistic and miminalist design. 
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/React_Router-20232A?style=for-the-badge&logo=react-router&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cypress.io-6e3596?style=for-the-badge&logo=cypress" />
+  <img src="https://img.shields.io/badge/Figma-CA4245?style=for-the-badge&logo=figma&logoColor=white" />
+  <img src="https://img.shields.io/badge/Miro-050038?style=for-the-badge&logo=Miro&logoColor=white" />
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Other Technologies
+<p align="center">
+GitHub Projects
+</p>
 
-### `npm test`
+## Installation
+1. Clone the repo
+  ```sh
+  git clone git@github.com:knpausch/ny-times-news.git
+  ```
+2. Install NPM packages
+  ```sh
+  npm install
+  npm start
+  ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Preview
 
-### `npm run build`
+## Planning Process
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Component Map and User Flow
+![NY Times News](https://user-images.githubusercontent.com/19957834/221047928-5ae8c167-b74c-4851-8003-3da354f51326.jpg)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Wireframe - Home View
 
-### `npm run eject`
+<p align="center">
+<img src="https://user-images.githubusercontent.com/19957834/221048145-78d10521-9f5b-420f-be26-414b0105050e.jpg" alt="drawing" width="600"/>
+</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Wireframe - Detail View
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="center">
+<img src="https://user-images.githubusercontent.com/19957834/221048233-539c5393-df2d-4007-a73b-24551fad5a7f.jpg" alt="drawing" width="600"/>
+</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Wireframe - No Results View
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p align="center">
+<img src="https://user-images.githubusercontent.com/19957834/221048299-215af5af-ac33-445c-9b5b-be93a16868c8.jpg" alt="drawing" width="600"/>
+</p>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Future Extensions
+- Incoporate pagination for a seemless page load on the Search View
+- Implement creating a user account and uploading a profile picture
+- Adding a social feature to send friend requests
+- Allow the database and app to include film titles 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Feedback Reflection
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- MARKDOWN LINKS & IMAGES -->
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
