@@ -1,0 +1,207 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2023 The New York Times Company. All Rights Reserved.",
+  "section": "home",
+  "last_updated": "2023-02-23T20:27:50-05:00",
+  "num_results": 29,
+  "results": [
+      {
+          "section": "us",
+          "subsection": "politics",
+          "title": "How the U.S. Adopted a New Intelligence Playbook to Expose Russia’s War Plans",
+          "abstract": "Bolder disclosures are part of a larger effort to stymie the Kremlin’s offensive in Ukraine and align support for Kyiv’s war effort in allied countries.",
+          "url": "https://www.nytimes.com/2023/02/23/us/politics/intelligence-russia-us-ukraine-china.html",
+          "uri": "nyt://article/210f529f-da16-59e9-9e66-700061fb6ee7",
+          "byline": "By Julian E. Barnes and Adam Entous",
+          "item_type": "Article",
+          "updated_date": "2023-02-23T20:26:33-05:00",
+          "created_date": "2023-02-23T19:58:46-05:00",
+          "published_date": "2023-02-23T19:58:46-05:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "United States International Relations",
+              "Russian Invasion of Ukraine (2022)",
+              "Classified Information and State Secrets",
+              "Defense and Military Forces",
+              "Espionage and Intelligence Services",
+              "United States Politics and Government",
+              "Arms Trade",
+              "Embargoes and Sanctions"
+          ],
+          "org_facet": [
+              "State Department",
+              "Central Intelligence Agency"
+          ],
+          "per_facet": [
+              "Biden, Joseph R Jr",
+              "Blinken, Antony J",
+              "Sullivan, Jacob J (1976- )"
+          ],
+          "geo_facet": [
+              "China",
+              "Crimea (Ukraine)",
+              "Iran",
+              "Europe",
+              "Russia",
+              "Ukraine"
+          ],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2023/02/23/multimedia/23dc-intel-01-jvwt/23dc-intel-01-jvwt-superJumbo.jpg",
+                  "format": "Super Jumbo",
+                  "height": 1365,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "President Biden and President Volodymyr Zelensky of Ukraine at a news conference in Kyiv on Monday.",
+                  "copyright": "Daniel Berehulak/The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2023/02/23/multimedia/23dc-intel-01-jvwt/23dc-intel-01-jvwt-threeByTwoSmallAt2X.jpg",
+                  "format": "threeByTwoSmallAt2X",
+                  "height": 400,
+                  "width": 600,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "President Biden and President Volodymyr Zelensky of Ukraine at a news conference in Kyiv on Monday.",
+                  "copyright": "Daniel Berehulak/The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2023/02/23/multimedia/23dc-intel-01-jvwt/23dc-intel-01-jvwt-thumbLarge.jpg",
+                  "format": "Large Thumbnail",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "President Biden and President Volodymyr Zelensky of Ukraine at a news conference in Kyiv on Monday.",
+                  "copyright": "Daniel Berehulak/The New York Times"
+              }
+          ],
+          "short_url": "https://nyti.ms/41oIlpK"
+      },
+      {
+          "section": "world",
+          "subsection": "",
+          "title": "The West Tried to Isolate Russia. It Didn’t Work.",
+          "abstract": "The West never won over as much of the world as it initially seemed. Here’s how Russia is taking advantage of a fragmented world.",
+          "url": "https://www.nytimes.com/interactive/2023/02/23/world/russia-ukraine-geopolitics.html",
+          "uri": "nyt://interactive/883c467a-375c-5af0-8dee-e6d9cbbfe4b3",
+          "byline": "By Josh Holder, Lauren Leatherby, Anton Troianovski and Weiyi Cai",
+          "item_type": "Interactive",
+          "updated_date": "2023-02-23T17:05:34-05:00",
+          "created_date": "2023-02-23T09:46:18-05:00",
+          "published_date": "2023-02-23T09:46:18-05:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Russian Invasion of Ukraine (2022)",
+              "Diplomatic Service, Embassies and Consulates",
+              "internal-sub-only"
+          ],
+          "org_facet": [
+              "North Atlantic Treaty Organization"
+          ],
+          "per_facet": [],
+          "geo_facet": [
+              "Ukraine"
+          ],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2023/02/23/world/russia-ukraine-geopolitics-promo/russia-ukraine-geopolitics-promo-superJumbo-v5.png",
+                  "format": "Super Jumbo",
+                  "height": 1333,
+                  "width": 2000,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": ""
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2023/02/23/world/russia-ukraine-geopolitics-promo/russia-ukraine-geopolitics-promo-threeByTwoSmallAt2X-v9.png",
+                  "format": "threeByTwoSmallAt2X",
+                  "height": 400,
+                  "width": 600,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": ""
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2023/02/23/world/russia-ukraine-geopolitics-promo/russia-ukraine-geopolitics-promo-thumbLarge-v5.png",
+                  "format": "Large Thumbnail",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": ""
+              }
+          ],
+          "short_url": "https://nyti.ms/41ni9vG"
+      },
+      {
+          "section": "world",
+          "subsection": "europe",
+          "title": "Prigozhin’s Feud With Russia’s Military Leaves Questions About Battlefield Results",
+          "abstract": "The leader of Wagner appears to have backed down from his latest criticism of Russia’s senior command. But his vitriolic remarks suggested more discord in Russia’s war effort.",
+          "url": "https://www.nytimes.com/2023/02/23/world/europe/wagner-russia-prigozhin-ukraine.html",
+          "uri": "nyt://article/46f2fa3f-22b0-567a-843d-0b064bb68792",
+          "byline": "By Anatoly Kurmanaev",
+          "item_type": "Article",
+          "updated_date": "2023-02-23T17:55:28-05:00",
+          "created_date": "2023-02-23T15:09:14-05:00",
+          "published_date": "2023-02-23T15:09:14-05:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Defense and Military Forces",
+              "Mercenaries and Private Military Contractors",
+              "Russian Invasion of Ukraine (2022)"
+          ],
+          "org_facet": [],
+          "per_facet": [
+              "Prigozhin, Yevgeny V",
+              "Putin, Vladimir V"
+          ],
+          "geo_facet": [
+              "Bakhmut (Ukraine)",
+              "Russia",
+              "Ukraine"
+          ],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2023/02/23/multimedia/23ukraine-wagner-fwvp/23ukraine-wagner-fwvp-superJumbo.jpg",
+                  "format": "Super Jumbo",
+                  "height": 1367,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "A photograph provided by the Russian newspaper Kommersant showing Yevgeny Prigozhin, holding a hat and flowers, at a ceremony for one of his fighters in Volgograd, Russia, last year.",
+                  "copyright": "Artem Krasnov/Kommersant, via Associated Press"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2023/02/23/multimedia/23ukraine-wagner-fwvp/23ukraine-wagner-fwvp-threeByTwoSmallAt2X.jpg",
+                  "format": "threeByTwoSmallAt2X",
+                  "height": 400,
+                  "width": 600,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "A photograph provided by the Russian newspaper Kommersant showing Yevgeny Prigozhin, holding a hat and flowers, at a ceremony for one of his fighters in Volgograd, Russia, last year.",
+                  "copyright": "Artem Krasnov/Kommersant, via Associated Press"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2023/02/23/multimedia/23ukraine-wagner-fwvp/23ukraine-wagner-fwvp-thumbLarge.jpg",
+                  "format": "Large Thumbnail",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "A photograph provided by the Russian newspaper Kommersant showing Yevgeny Prigozhin, holding a hat and flowers, at a ceremony for one of his fighters in Volgograd, Russia, last year.",
+                  "copyright": "Artem Krasnov/Kommersant, via Associated Press"
+              }
+          ],
+          "short_url": "https://nyti.ms/3xOr7nX"
+      }
+  ]
+}
