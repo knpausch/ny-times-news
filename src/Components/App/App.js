@@ -12,6 +12,7 @@ function App() {
     fetch('https://api.nytimes.com/svc/topstories/v2/home.json?api-key=hJ0FcCaJDYmhdMWUGZW8WtEDnv3AGhsy')
       .then(response => response.json())
       .then(data => {
+        console.log(data.results)
         setNewsData(data.results)
         return
       })
