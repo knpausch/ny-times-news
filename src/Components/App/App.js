@@ -1,5 +1,5 @@
 import './App.css'
-import { Route, Routes, Switch } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import HomeView from '../HomeView/HomeView'
 import DetailView from '../DetailView/DetailView'
@@ -12,7 +12,6 @@ function App() {
     fetch('https://api.nytimes.com/svc/topstories/v2/home.json?api-key=hJ0FcCaJDYmhdMWUGZW8WtEDnv3AGhsy')
       .then(response => response.json())
       .then(data => {
-        console.log(data.results)
         setNewsData(data.results)
         return
       })
